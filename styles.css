@@ -1,0 +1,84 @@
+body {
+    font-family: 'Kanit', Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    background: #ffffff;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+  }
+  
+  h1 {
+    color: #333333;
+    margin-bottom: 20px;
+    font-weight: 700;
+    letter-spacing: -1px; /* Reduces space between letters */
+    line-height: 0.8; /* Adjusts line spacing */
+  }
+  
+  h1 .highlight {
+    color: #28a745; /* Green color for "Percentage" */
+  }
+  
+  
+  .input-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555555;
+  }
+  
+  .input-with-icon {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  
+  .input-with-icon i {
+    position: absolute;
+    left: 10px;
+    color: #28a745; /* Green color for icons */
+  }
+  
+  input {
+    width: 100%;
+    padding: 8px 8px 8px 30px; /* Add padding to the left for the icon */
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #28a745; /* Green button */
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: 'Kanit', Arial, sans-serif;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #218838; /* Darker green for hover effect */
+  }
+  
+  #result {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #333333;
+  }
+  
